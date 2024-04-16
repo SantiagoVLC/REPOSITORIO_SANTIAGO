@@ -6,4 +6,4 @@ git remote add origin "dirección del repositorio en github"	Darle el repositori
 git status							Indica el estado de los archivos subidos y no subidos al repositorio
 git add (nombre del archivo)					Agregar el archivo que se requiere de forma momentanea
 git commit -m "mensaje para agregar"				Confirma el agregado de los archivos con add
-git push -u origin master					El nombre origin es el que se puso con el comando remote add y el nombre se pone master
+git push -u origin master					El nombre origin es el que se puso con el comando remote add y el nombre se pone master o main o según la rama en GitHub
