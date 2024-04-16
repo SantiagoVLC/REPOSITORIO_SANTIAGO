@@ -1,0 +1,9 @@
+cd /* aquí va la dirección de la carpeta */			Ubicarnos en una carpeta
+git init							Inicializa un repositorio en la carpeta ubicada previamente
+git config user.name "nombre de usuario en github"		Darle un dueño al repositorio en GitHub (iniciar sesión)
+git config user.email "@ correo de github"			Darle un dueño al repositorio en GitHub (iniciar sesión)
+git remote add origin "dirección del repositorio en github"	Darle el repositorio origen ya creado en GitHub
+git status							Indica el estado de los archivos subidos y no subidos al repositorio
+git add (nombre del archivo)					Agregar el archivo que se requiere de forma momentanea
+git commit -m "mensaje para agregar"				Confirma el agregado de los archivos con add
+git push -u origin master					El nombre origin es el que se puso con el comando remote add y el nombre se pone master
